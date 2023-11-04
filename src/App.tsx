@@ -1,14 +1,15 @@
 import React from 'react'
 import './App.css'
 import 'animate.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/MainComponents/Navbar'
+import Header from './components/Header'
+import Accolades from './components/Accolades'
 function App() {
   return (
-    <div className=' font-manrope p-5 bg-black-950 min-h-[100vh] text-white-100'>
+    <div className=' font-manrope p-5 bg-black-950 min-h-[100vh] text-white-100 app'>
       <Navbar />
-      <h1 className=' font-manrope font-extrabold animate__animated animate__bounceInLeft'>
-        Hello WealthWise
-      </h1>
+      <Header />
+      <Accolades />
     </div>
   )
 }
