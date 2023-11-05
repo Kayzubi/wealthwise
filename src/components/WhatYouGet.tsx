@@ -3,8 +3,8 @@ import { HiOutlineArrowUpRight } from 'react-icons/hi2'
 
 const WhatYouGet = () => {
   return (
-    <div className=' py-12 min-h-[80vh]'>
-      <div className=' w-full max-w-7xl mx-auto grid grid-cols-2'>
+    <div className=' py-12 min-h-[80vh] px-3'>
+      <div className=' w-full max-w-7xl mx-auto grid grid-cols-2 sm:block'>
         <div>
           <h3 className=' text-canary-300 text-xl md:text-sm uppercase flex items-center gap-2'>
             {' '}

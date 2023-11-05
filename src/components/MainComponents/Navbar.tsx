@@ -5,7 +5,7 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState<boolean>(false)
 
   return (
-    <div>
+    <div className=' px-3'>
       <div className=' w-full max-w-7xl mx-auto p-3 rounded-md  relative'>
         <div className=' bg-gradient-to-b from-white-100 backdrop-blur-lg via-transparent to-white-100 bg-opacity-5 absolute h-full w-full opacity-20 left-0 top-0 rounded-md z-0'></div>
         <div className=' flex justify-between items-center z-10 relative'>

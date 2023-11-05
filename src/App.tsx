@@ -6,15 +6,17 @@ import Header from './components/Header'
 import Accolades from './components/Accolades'
 import PortfolioModule from './components/PortfolioModule'
 import WhatYouGet from './components/WhatYouGet'
+import Saving from './components/Saving'
+import Footer from './components/Footer'
 function App() {
   return (
-    <div className=' font-manrope p-5 bg-black-950 min-h-[100vh] text-white-100 app'>
+    <div className=' font-manrope pt-5 bg-black-950 min-h-[100vh] text-white-100 app'>
       <Navbar />
       <Header />
       <Accolades />
       <PortfolioModule />
       <div className=' py-12 min-h-[60vh] text-center'>
-        <h3 className=' text-canary-300 text-2xl uppercase flex items-center justify-center gap-2'>
+        <h3 className=' text-canary-300 text-2xl uppercase flex items-center justify-center gap-2 sm:text-lg'>
           {' '}
           <span className=' w-20 h-[2px] bg-canary-300 inline-block'></span> Why
           choose us{' '}
@@ -29,6 +31,8 @@ function App() {
         </h1>
       </div>
       <WhatYouGet />
+      <Saving />
+      <Footer />
     </div>
   )
 }

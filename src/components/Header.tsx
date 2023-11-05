@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <div className=' mt-3 p-10 max-w-7xl mx-auto grid grid-cols-2 md:block overflow-hidden'>
         <div className=' pt-10 flex flex-col gap-10 animate__animated animate__fadeInLeft md:text-center'>
-          <h1 className=' text-7xl sm:text-5xl'>
+          <h1 className=' text-7xl sm:text-5xl leading-normal'>
             Your
             <span className=' ml-2 font-semibold text-canary-300'>
               One <br /> Stop

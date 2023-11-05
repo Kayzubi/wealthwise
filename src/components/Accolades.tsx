@@ -3,7 +3,7 @@ import { HiStar } from 'react-icons/hi'
 
 const Accolades = () => {
   return (
-    <div className=' py-12'>
+    <div className=' py-12 px-3'>
       <div className=' mx-auto w-full max-w-7xl bg-white-100 bg-opacity-10 p-5 flex justify-between items-center rounded-md backdrop-blur-sm min-h-20 sm:grid grid-cols-2 gap-6 sm:bg-transparent'>
         <span>
           <h1 className=' text-3xl font-extrabold flex items-center sm:text-center w-full'>
