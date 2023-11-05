@@ -2,8 +2,6 @@ import axios from 'axios'
 import { HttpConfig } from '../http'
 import { useCallback } from 'react'
 
-const baseurl = 'http://localhost:8000'
-
 const useSendHttpRequest = () => {
   const sendRequest = useCallback(
     async (
@@ -12,7 +10,7 @@ const useSendHttpRequest = () => {
       loadingFunc?: (value: boolean) => void,
       errorFunc?: (err: any) => void
     ) => {
-      const apiUrl = `${baseurl}${httpConfig.url}`
+      const apiUrl = `https://wealthwise-server.up.railway.app${httpConfig.url}`
 
       const config = {
         ...httpConfig,

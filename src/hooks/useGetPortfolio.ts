@@ -4,7 +4,7 @@ import { HttpConfig } from '../http'
 import useSendHttpRequest from './useHttp'
 
 const useGetPortfolio = () => {
-  const [loading, setloading] = useState(false)
+  const [loading, setLoading] = useState(false)
   const [portfolioData, setPortfolioData] = useState<TolerancePortfolio[]>([])
   const sendRequest = useSendHttpRequest()
 
@@ -18,7 +18,7 @@ const useGetPortfolio = () => {
       method: 'get',
     }
 
-    sendRequest(url, successCallback, setloading)
+    sendRequest(url, successCallback, setLoading)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
