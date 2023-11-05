@@ -12,4 +12,5 @@
   width: 100%;
   background-image: url('./assets/images/—Pngtree—ogy wave curve lines_5487245 1.png');
   opacity: 0.1;
+  z-index: 0;
 }
