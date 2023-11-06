@@ -47,3 +47,5 @@ The frontend of this project was deployed on Netlify (www.netlify.com) a free pl
 # Project Summary
 
 In summary, Wealthwise offers a modern, accessible, and cost-effective solution for individuals looking to invest wisely and efficiently. As the financial landscape evolves, there are significant opportunities for growth and improvement in the field of automated investment advice.
+
+Live URL: https://wealthwiise.netlify.app/
